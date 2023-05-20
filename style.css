@@ -1,0 +1,47 @@
+main{
+background-color: rgb(167, 167, 167);
+height: 700px;
+}
+
+.janela1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(189, 65, 65);
+}
+.janela2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(109, 108, 108);
+}
+
+@media(max-width:1000px) {
+    main{
+       background-color: #000000 ;
+    }
+    .janela1{
+        width: 150px;
+        height: 150px;
+    }
+
+.janela2{
+    width: 200px;
+    height: 200px;
+}
+}
+
+@media(max-width:450px){
+    main{
+        background-color: blueviolet;
+    }
+    .janela1{
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+    }
+
+    .janela2{
+        width: 100px;
+        height: 100px;
+        background-color: greenyellow;
+    }
+}
